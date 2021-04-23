@@ -19,15 +19,17 @@ EIMSK|=(1<<INT0)|(1<<INT1);
 
 sei();
 
-    while(1){
-            if(FLAG==1&&FLAG1==1)
+    while(1)
+    {
+            if(FLAG==1 && FLAG1==1)
             {
             PORTB|=(1<<PB0);
-            _delay_ms(5000);
+            _delay_ms(4000);
             FLAG = 0;
             FLAG1 = 0;
             }
-            else{
+            else
+            {
             PORTB&=~(1<<PB0);
             _delay_ms(1000);
             }
@@ -38,7 +40,6 @@ sei();
 
 ISR(INT0_vect)
 {
-
     FLAG = 1;
 }
 
