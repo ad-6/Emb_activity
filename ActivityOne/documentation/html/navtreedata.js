@@ -28,7 +28,11 @@ var NAVTREE =
     [ "Embedded Activity 1 by Akriti @subpage main.c @subpage fuse.c", "index.html", null ],
     [ "Activity 1: Triggering a LED when both driver's seat and heater is detected", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html", [
       [ "LED ON", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html#autotoc_md1", null ],
-      [ "LED OFF", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html#autotoc_md2", null ]
+      [ "LED OFF", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html#autotoc_md2", [
+        [ "Case 1: Driver seat on, heater off", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html#autotoc_md3", null ],
+        [ "Case 2: Driver seat off, heater off", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html#autotoc_md4", null ],
+        [ "Case 1: Driver seat off, heater on", "md_C__Users_akriti_Documents_step_in_emd_pro_Emb_activity_ActivityOne_README.html#autotoc_md5", null ]
+      ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
