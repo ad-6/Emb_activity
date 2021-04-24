@@ -25,9 +25,9 @@ int main(void)
     /**
      * @brief Setting the direction of the pins D0 and D1 as input
      *
-     * @note SETTING D0 AS INPUT - for driver's detection on seat
+     * @note for driver's detection on seat , D0 is set as input
      *
-     * @note SETTING D1 AS INPUT - for detection of heater
+     * @note for detection of heater, D1 is set as input
      *
      */
 
