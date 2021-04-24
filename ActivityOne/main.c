@@ -22,33 +22,15 @@
 int main(void)
 {
 
-    /**
-     * @brief Setting the direction of the pins D0 and D1 as input
-     *
-     * @note for driver's detection on seat , D0 is set as input
-     *
-     * @note for detection of heater, D1 is set as input
-     *
-     */
-
-
-
+    /* Setting the direction of the pins D0 (driver's seat detection) and D1 (detection of heater) as input */
     DDRD&=~(1<<PD0);
     DDRD&=~(1<<PD1);
 
-    /**
-     * @brief internal supply of 5V to D0 and D1 (default pull-up)
-     *
-     */
-
+    /* internal supply of 5V to D0 and D1 (default pull-up) */
     PORTD|=(1<<PD0);
     PORTD|=(1<<PD1);
 
-    /**
-     * @brief Setting the direction of the pin B0 as output (LED)
-     *
-     */
-
+    /* Setting the direction of the pin B0 as output (LED) */
     DDRB|=(1<<PB0);
 
 
