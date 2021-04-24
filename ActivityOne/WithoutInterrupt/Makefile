@@ -3,7 +3,7 @@ PROJ_NAME = Blinky
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c
+SRC = main.c\
 
 # All header file paths
 INC = -I inc
