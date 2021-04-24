@@ -1,0 +1,1 @@
+@mainpage Embedded Activity 1 by Akriti @subpage main.c @subpage fuse.c
