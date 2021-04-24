@@ -1,2 +1,2 @@
-#### Embedded Case Study
+## Embedded Case Study
 
