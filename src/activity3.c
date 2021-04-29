@@ -36,13 +36,13 @@ uint8_t temperature(uint16_t temp_recorded)
         return 20;
     }
 
-    else if (210=<temp_recorded && temp_recorded<=500)
+    else if (210<=temp_recorded && temp_recorded<=500)
     {
         OCR1A=410;
         return 25;
     }
 
-    else if (510=<temp_recorded && temp_recorded<=700)
+    else if (510<=temp_recorded && temp_recorded<=700)
     {
         OCR1A=716;
         return 29;
