@@ -17,6 +17,8 @@
 #define driverseat PD0
 #define heater PD1
 #define LED PB0
+#define driverseat_switch_close !(PIND&(1<<PD0))
+#define heater_switch_close !(PIND&(1<<PD1))
 
 /**
  * @brief declarations of function

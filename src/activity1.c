@@ -40,7 +40,7 @@ int led_on()
     while(1)
     {
         /* return 1 and turn on the led when both driverseat and heater switch are close */
-        if(!(PIND&(1<<PD0)) && !(PIND&(1<<PD1)))
+        if((driverseat_switch_close) && (heater_switch_close))
         {
             PORTB|=(1<<LED);
             return 1;
