@@ -1,9 +1,13 @@
-PROJ_NAME = Blinky
+PROJ_NAME = EmbActivity
 
 BUILD_DIR = Build
 
 # All Source code files
-SRC =main.c\
+SRC =seatheating.c\
+src/activity1.c\
+src/activity2.c\
+src/activity3.c\
+src/activity4.c
 
 
 # All header file paths
