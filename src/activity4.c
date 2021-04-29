@@ -1,21 +1,21 @@
 /**
  * @file activity4.c
  * @author Akriti D
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2021-04-29
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  */
 #include <avr/io.h>
 #include "activity4.h"
 
 
-void USARTInit(uint16_t BAUDRATE)
+void USARTInit(uint16_t temp)
 {
-    UBRR0H=(BAUDRATE>>8)&(0x00FF);
-    UBRR0L=BAUDRATE;
+    UBRR0H=(temp>>8)&(0x00FF);
+    UBRR0L=temp;
 
     UCSR0C=(1<<UMSEL00)|(1<<UCSZ01)|(1<<UCSZ00);
     UCSR0B=(1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0);
@@ -33,8 +33,8 @@ void USARTWriteChar(int data)
     UDR0=data;
 }
 
-void display_temp(int t2)
+void display_temp(int temp)
 {
     USARTInit(103);
-    USARTWriteChar(t2);
+    USARTWriteChar(temp);
 }
