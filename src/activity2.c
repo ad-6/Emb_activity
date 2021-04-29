@@ -37,6 +37,12 @@ uint16_t ReadADC(uint8_t ch)
     ADCSRA|=(1<<ADIF);
     return(ADC);
 }
+
+/**
+ * @brief function to generate the duty cycle 
+ * 
+ * @return int 
+ */
 int read_temp(void)
 {
     InitADC();

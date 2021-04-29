@@ -1,7 +1,7 @@
 /**
  * @file activity4.h
  * @author Akriti D
- * @brief
+ * @brief header file for function declarations of activity 4
  * @version 0.1
  * @date 2021-04-29
  *
