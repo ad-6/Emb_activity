@@ -6,15 +6,15 @@
 ![ON](simulation/SYSTEMON.png)
 
 ## In Action
-## OFF, when neither driver is seated not heater is on
+## OFF, when neither driver is seated nor heater is switched on
 
 ![OFF](simulation/SYSTEMOFF.png)
 
-## OFF, when driver is seated but not heater is on
+## OFF, when driver is seated but heater is not switched on
 
 ![OFF](simulation/SYSTEMOFF1.png)
 
-## OFF, when driver is not seated but heater is on
+## OFF, when driver is not seated but heater is switched on
 
 ![OFF](simulation/SYSTEMOFF2.png)
 
