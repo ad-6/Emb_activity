@@ -18,11 +18,5 @@
 
 ![OFF](simulation/SYSTEMOFF2.png)
 
-#### CI and Code Quality
-
-|Build|Cppcheck|
-|:--:|:--:|
-|[![Compile-Linux](https://github.com/ad-6/Emb_activity/actions/workflows/Compile.yml/badge.svg)](https://github.com/ad-6/Emb_activity/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/ad-6/Emb_activity/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/ad-6/Emb_activity/actions/workflows/CodeQuality.yml)|
-
 
 
