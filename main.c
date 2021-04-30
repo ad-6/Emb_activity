@@ -1,7 +1,7 @@
 /**
- * @file seatheating.c
+ * @file main.c
  * @author Akriti D
- * @brief
+ * @brief  this contains all the functions call for the activities
  * @version 0.1
  * @date 2021-04-29
  *
