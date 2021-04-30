@@ -1,1 +1,1 @@
-@mainpage Embedded Activity 1 by Akriti @subpage main.c @subpage fuse.c
+@mainpage Embedded Activity 1 by Akriti @subpage main.c @subpage fuse.c @subpage activity1.c @subpage activity2.c @subpage activity3.c @subpage activity4.c 
